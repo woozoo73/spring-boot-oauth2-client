@@ -13,12 +13,12 @@ security:
             filter-order: 3
         client:
             authenticationScheme: header
-logging:
-    level:
-    # org.springframework.security: DEBUG
+#logging:
+#    level:
+#    # org.springframework.security: DEBUG
 
 server:
-    port: 8081
+    port: 10080
     error:
         whitelabel:
             enabled: false

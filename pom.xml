@@ -11,7 +11,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+        <!--  
         <version>1.5.6.RELEASE</version>
+        -->
+        <version>2.2.2.RELEASE</version>
     </parent>
     
     <properties>
@@ -42,6 +45,8 @@
         <dependency>
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
+             <!-- Missing으로 버전 명시 -->
+            <version>2.4.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -51,6 +56,32 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.2.12</version>
+        </dependency>
+        <dependency>
+  <groupId>javax.activation</groupId>
+  <artifactId>javax.activation-api</artifactId>
+  <version>1.2.0</version>
+</dependency>
+		<dependency>
+		    <groupId>com.sun.xml.bind</groupId>
+		    <artifactId>jaxb-impl</artifactId>
+		    <version>2.2.11</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.sun.xml.bind</groupId>
+		    <artifactId>jaxb-core</artifactId>
+		    <version>2.2.11</version>
+		</dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -62,7 +93,7 @@
             <artifactId>javax.ws.rs-api</artifactId>
             <version>2.0</version>
             <type>jar</type>
-        </dependency>
+        </dependency>       
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
